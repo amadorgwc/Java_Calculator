@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+    
+    // DO NOT TOUCH THE FOLLOWING CODE
+    
+    Scanner input = new Scanner(System.in);
+    System.out.println("enter your first integer number");
+    int a = input.nextInt();
+    System.out.println("enter your second integer number");
+    int b = input.nextInt();
+    System.out.println("what operation would you like to perform? (answer with one of the following: + - / *)");
+    char operation = input.next().charAt(0);
+    
+    // now create a calculator! this is where you can write your code.
+    // 01: create an integer variable to store the answer; you can set it to 0 for now
+    
+    
+    // 02:  given that the operation wanted is + - / or * denoted by the CHAR operation, 
+    //and the two integers involved in the operation are int a and int b, 
+    //use if statements to complete the operation; no need to print anything yet!
+
+    
+    
+    // 03: now use a single print statement to print the output (the answer integer variable)
+    
+    System.out.println("the anser to "+ a+ operation+b + ans);
+    
+  }
+}
